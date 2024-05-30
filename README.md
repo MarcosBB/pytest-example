@@ -1,4 +1,5 @@
-# pytest-example
+# Pytest example
+It's a simple example of how to use pytest to test a simple function.
 
 ## Setting up the environment
 
