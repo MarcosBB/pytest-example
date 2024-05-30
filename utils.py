@@ -1,4 +1,3 @@
-        
 def string_to_boolean(value):
     """
     >>> string_to_boolean('true')
@@ -10,11 +9,10 @@ def string_to_boolean(value):
     >>> string_to_boolean('f')
     False
     """
-    
-    if value is None or value.lower() in ['false', 'f', '0', '']:
+
+    if value is None or value.lower() in ["false", "f", "0", ""]:
         return False
-    elif value.lower() in ['true', 't', '1']:
+    elif value.lower() in ["true", "t", "1"]:
         return True
     else:
         raise ValueError(f"{value} is not a valid boolean value")
-    
